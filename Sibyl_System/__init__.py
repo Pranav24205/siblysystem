@@ -19,7 +19,7 @@ logging.basicConfig(
 
 ENV = bool(os.environ.get("ENV", False))
 if ENV:
-    API_ID_KEY = os.environ.get("API_ID_KEY")
+    API_ID_KEY = os.environ.get("18564918")
     API_HASH_KEY = os.environ.get("API_HASH_KEY")
     STRING_SESSION = os.environ.get("STRING_SESSION")
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY")
