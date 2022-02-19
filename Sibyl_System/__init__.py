@@ -57,7 +57,6 @@ MONGO_CLIENT = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URL)
 
 from .client_class import SibylClient
 
-System = SibylClient(StringSession(STRING_SESSION), API_ID_KEY, API_HASH_KEY)
 
 collection = MONGO_CLIENT["Sibyl"]["Main"]
 
